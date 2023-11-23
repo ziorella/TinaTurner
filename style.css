@@ -1,5 +1,5 @@
 html {
-  background-image: url("https://img.freepik.com/free-photo/noisy-background_1194-7547.jpg?w=740&t=st=1700660395~exp=1700660995~hmac=bd4d6d5827ac2e31e9331557ddda6e0a98f36aeb06bdb2e67dd7e7b9c13e4d1f");
+  background-image: url("https://img.freepik.com/premium-photo/silver-glitter-background_280388-3251.jpg?w=996");
 }
 
 body {
@@ -42,7 +42,7 @@ h1 {
   color: gray;
   text-shadow: 2px 1px 2px black;
   margin-top: 50px;
-  font-size: 35px;
+  font-size: 45px;
 }
 
 /*<------DISCOS------>*/
@@ -51,6 +51,7 @@ h1 {
 }
 #discos {
   background-color: transparent;
+  font-weight:bold;
 }
 
 #discos div {
@@ -59,6 +60,11 @@ h1 {
   background-color: transparent;
 }
 
+#discos img{
+  padding-left:50px;
+  padding-right:30px;
+  align-items:center;
+}
 /*<------FLEX CONTAINER----->*/
 .flexbox-container {
   display: -ms-flex;
