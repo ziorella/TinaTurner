@@ -1,5 +1,5 @@
 html {
-  background-image: url("https://wallpapers.com/images/high/silver-glitter-background-etepdewp4k4sh6b0.webp");
+  background-image: url("https://img.freepik.com/premium-photo/silver-glitter-background_280388-3251.jpg?w=996");
 }
 
 body {
@@ -7,19 +7,22 @@ body {
   padding: 0;
 }
 
+/*<------NAV------>*/
 nav {
   text-transform: uppercase;
   margin-top: 0;
   display: flex;
   justify-content: space-around;
+ align-items: center;
   margin: 0;
   width: 100%;
   background-image: url("https://img.freepik.com/premium-photo/black-glittery-background_53876-149936.jpg");
   z-index: 1000;
   font-weight: bold;
+    height: 100px;
 }
 
-nav a {
+nav a{
   padding: 15px 50px;
   text-decoration: none;
   color: #d4d4d4;
@@ -30,76 +33,28 @@ nav a:hover {
 }
 
 nav a.activo {
-
-  color: red; 
+  color: red;
 }
 
-h1 {
-  text-align: center;
-  color: gray;
-  text-shadow: 2px 1px 2px black;
-  margin-top:50px;
-}
-
-#discografia{
-    padding: 20px;
-}
-#discos{
-  background-color: transparent;
-}
-
-#discos p{
-  color: white;
-   //border: 4px solid black;
-}
-
-#discos div {
-  padding-bottom: 40px;
-  padding-left: 25px;
-  background-color: transparent;
-}
-
-.flexbox-container {
-  display: -ms-flex;
-  display: -webkit-flex;
-  display: flex;
-}
-
-.flexbox-container > div {
-  width: 50%;
-  padding: 10px;
-  background: #fff;
-}
-
-.flexbox-container > div:first-child {
-  margin-right: 20px;
-}
-
-#videos {
-  //margin-top: 25%;
-  margin-bottom: 25%;
-  background-color: transparent;
-}
-
-video {
-  margin-top: 25%;
-  border: 4px solid red;
-}
 
 /*<---FOOTER-->*/
 footer {
-  margin-bottom: 0; 
+  margin-top:20px;
+  margin-bottom: 0;
+  bottom: 0;
   width: 100%;
+  height:80px;
   color: #d4d4d4;
   display: grid;
+  place-items: center;
   grid-template-columns: repeat(2, 1fr);
   text-align: center;
   background-image: url("https://img.freepik.com/premium-photo/black-glittery-background_53876-149936.jpg");
 }
-#Copyright{
-  margin-top:10px;
-  margin-left:15px;
-  font-size:
+
+#Copyright {
+  margin-top: 10px;
+  margin-left: 15px;
 }
 
 #redes {
@@ -107,8 +62,8 @@ footer {
 }
 
 #redes i {
-  margin:20px;
+  margin: 20px;
   padding: 15px;
   color: #d4d4d4;
-  text-align:center;
+  text-align: center;
 }
