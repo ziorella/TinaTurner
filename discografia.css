@@ -22,7 +22,7 @@ nav {
   z-index: 1000;
   font-weight: bold;
   height: 100px;
-  color: #gray;
+  color: gray;
 }
 
 button {
@@ -152,3 +152,4 @@ footer a {
 #redes i:hover {
   color: #ff556e;
 }
+

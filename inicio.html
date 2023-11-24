@@ -14,23 +14,23 @@
       href="https://use.fontawesome.com/releases/v6.4.2/css/all.css"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styleanna.css" />
+    <link rel="stylesheet" href="inicio.css" />
     <title>Tina Turner</title>
   </head>
   <body>
     <section>
       <header>
         <nav>
-          <a href="inicio.html">
-            <p>Inicio</p>
+          <a  href="inicio.html">
+              <button id="inicio">Inicio</button>
           </a>
           <a href="biografia.html">
-            <p>Biografía</p>
+              <button>Biografía</button>
           </a>
           <a href="discografia.html">
-            <p>Discografía</p>
+              <button>Discografía</button>
           </a>
-        </nav>
+      </nav>
       </header>
     </section>
     <main>
@@ -61,15 +61,15 @@
     </footer>
     <script>
       var url = window.location.href;
-    
-      var enlaces = document.querySelectorAll("nav a");
-    
-      enlaces.forEach(function (enlace) {
-        if (enlace.href === url) {
-          enlace.classList.add("activo");
-        }
+      var botones = document.querySelectorAll('header button');
+  
+      botones.forEach(function (boton) {
+          if (boton.parentNode.href === url) {
+              boton.classList.add('activo');
+          }
       });
-    </script>
+  </script>
+  
     
   </body>
 </html>
