@@ -7,6 +7,7 @@ html {
   body {
     margin: 0;
     padding: 0;
+    font-weight: bold;
   }
   
   /*<------NAV------>*/
@@ -19,7 +20,7 @@ html {
     align-items: center;
     margin: 0;
     width: 100%;
-    background-image: url("https://img.freepik.com/premium-photo/black-glittery-background_53876-149936.jpg");
+    background-image: url("https://media3.giphy.com/media/U3qYN8S0j3bpK/giphy.webp?cid=ecf05e47av4inh09cg6eq28zapnvr9jlpqpm8b48whw2rbq0&ep=v1_gifs_search&rid=giphy.webp&ct=g");
     z-index: 1000;
     font-weight: bold;
     height: 100px;
@@ -46,14 +47,15 @@ html {
   }
   
   nav button.activo {
-    color: red;
+    color: gray;
   }
   h1 {
-    font-size: 60px;
-    margin: 20px;
-    color: gray;
-    text-shadow: 2px 1px 2px black;
     text-align: center;
+  color: gray;
+  text-shadow: 2px 1px 2px black;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 60px;
   }
   footer {
     margin-top: 20px;
@@ -66,7 +68,7 @@ html {
     place-items: center;
     grid-template-columns: repeat(2, 1fr);
     text-align: center;
-    background-image: url("https://img.freepik.com/premium-photo/black-glittery-background_53876-149936.jpg");
+    background-image: url("https://media3.giphy.com/media/U3qYN8S0j3bpK/giphy.webp?cid=ecf05e47av4inh09cg6eq28zapnvr9jlpqpm8b48whw2rbq0&ep=v1_gifs_search&rid=giphy.webp&ct=g");
   }
   
   footer a {
@@ -93,19 +95,10 @@ html {
   #redes i:hover {
     color: #ff556e;
   }
-  /*
-  main {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  */
+
   .madre {
     width: 100%;
     display:flex;
-   
   }
 
   .hijas {
